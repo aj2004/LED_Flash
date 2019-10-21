@@ -38,7 +38,7 @@ This will flash 1 second ON, and 500ms OFF.
 PWM Mode:
 
 `myPWM_LED.flash(500, 2000, 25, 255);`
-This will flash 500ms ON at ~10% brightness, then 2 seconds OFF at 100% brightness.
+This will flash 500ms at ~10% brightness, then 2 seconds at 100% brightness.
 
 RGB Mode:
 
@@ -48,3 +48,7 @@ This will flash 250ms full RED, and 250ms full CYAN.
 Be sure to update the state of the LED each loop():
 
 `myDig_LED.update();`
+
+`myPWM_LED.update();`
+
+`myRGB_LED.update();`
