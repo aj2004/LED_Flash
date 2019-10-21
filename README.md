@@ -14,11 +14,11 @@ This library will allow either a single LED or an RGB LED to be flashed between 
 
 1. Construct one of:
 
- - Single digitally-controlled LED: `myDig_LED (pin, invert);`
+ - Single digitally-controlled LED: `LED_Flash_Single myDig_LED (pin, invert);`
 
- - Single PWM-controlled LED: `myPWM_LED (pin, invert);`
+ - Single PWM-controlled LED: `LED_Flash_PWM myPWM_LED (pin, invert);`
 
- - PWM-controlled RGB LED: `myRGB_LED (pinRed, pinGrn, pinBlu, invert);`
+ - PWM-controlled RGB LED: `LED_Flash_RGB myRGB_LED (pinRed, pinGrn, pinBlu, invert);`
 
 2. Tell your LED to flash:
 
